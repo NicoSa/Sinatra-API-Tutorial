@@ -1,6 +1,6 @@
 require 'sinatra'
 require 'json'
-require 'prime_calc'
+require_relative './prime_calc.rb'
 
 get '/prime/:number' do
 	content_type :json
