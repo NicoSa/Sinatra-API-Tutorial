@@ -1,7 +1,10 @@
 Sinatra-API-Tutorial
 ====
 
-In this tutorial I will try to show a very basic example of how two Sinatra apps can interact via an API using JSON. The PrimeChecker validates a number for being a prime number or not and returns a JSON accordingly. The NumberService returns a hash that contains the tested number as well as whether the tested number is a prime number or not. To validate the number on being a prime or not the NumberService makes a request to the PrimeChecker.
+In this tutorial I will try to show a very basic example of how two Sinatra apps can interact via an API using JSON. 
+- The PrimeChecker validates a number for being a prime number or not and returns a JSON accordingly. 
+- The NumberService returns a hash that contains the tested number as well as whether the tested number is a prime number or not. 
+- To validate the number on being a prime or not the NumberService makes a request to the PrimeChecker.
 
 I'm assuming you have worked with Sinatra before. If not you might want to familiarize yourself with the framework [here].
 
@@ -37,12 +40,12 @@ How to run test
 
 ```sh
 cd NumberService
-bundle exec rspec ./spec/number_service_spec.rb -p 5000
+bundle exec rspec ./spec/number_service_spec.rb 
 ```
 
 ```sh
 cd PrimeChecker
-bundle exec rspec ./spec/prime_checker_spec.rb -p 5001
+bundle exec rspec ./spec/prime_checker_spec.rb 
 ```
 
 How to use
