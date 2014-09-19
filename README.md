@@ -15,6 +15,7 @@ What could be added
 - Integration tests for both apps interacting
 - Step by step explanation
 - Variable ports?
+- Stub HTTP requests with Webmock
 
 Gems
 ---
